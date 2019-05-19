@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css"/>
     <meta charset="UTF-8">
     <title>LogBook</title>
 </head>
@@ -8,7 +9,14 @@
 <h1>Logbook</h1>
 <h2>To track the progression </h2>
 <h3>May 19th</h3>
-<h4>Creation of the logBook button (...In fact, a clickable picture)</h4>
+<ul>
+<li>Creation of the logBook button (...In fact, a clickable picture)</li>
+<li>UI Test : Implementation with Cucumber/Selenium</li>
+    <span class="GherkinText">Scenario:</span> The logbook picture must load logBook.html in the main frame<br>
+    <span class="GherkinText">Given</span> I'm connected to https://nabil-hammami.github.io/my_site/<br>
+    <span class="GherkinText">When</span> I click on the logbook picture<br>
+    <span class="GherkinText">Then</span> the main frame must contain LogBook
+</ul>
 <p></p>
 </body>
 </html>

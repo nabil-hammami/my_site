@@ -1,9 +1,3 @@
-body {
-    background-color: black;
-    font-weight: bold;
-    background-image: url("../IMG/background/lakeForest.jpg");
-}
-
 header {
     /* */
     grid-area: header;
@@ -25,6 +19,7 @@ article {
     grid-area: main;
     padding: 20px;
     border: 2px solid black;
+    background-color: whitesmoke;
 }
 
 .wrapper {
@@ -33,5 +28,15 @@ article {
     grid-gap: 10px;
     grid-template-columns: 9% 20% 60% 10%;
     grid-template-areas: ". header header ." ". sidebar main .";
-
+    background-color: black;
+    font-weight: bold;
+    background-image: url("../IMG/background/lakeForest.jpg");
 }
+
+span.GherkinText {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+

@@ -3,7 +3,19 @@ function resizeIframe(obj) {
 }
 
 function eventClick(obj){
-    if (obj === "logBook"){
+    if (obj === "imgLogBook"){
         document.getElementById("mainFrame").src = "./HTML/logBook.html";
+    }
+}
+
+function eventMouseOver(obj) {
+    if (obj === "imgLogBook"){
+        document.getElementById("imgLogBook").src = "./IMG/logBookMouseOver.png";
+    }
+}
+
+function eventMouseOut(obj) {
+    if (obj === "imgLogBook"){
+        document.getElementById("imgLogBook").src = "./IMG/logBook.png";
     }
 }
