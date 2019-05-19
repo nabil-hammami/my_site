@@ -1,30 +1,30 @@
-body{
+body {
     background-color: black;
     font-weight: bold;
+    background-image: url("../IMG/background/lakeForest.jpg");
 }
 
 header {
     /* */
     grid-area: header;
-    background-color: cadetblue;
-    padding: 20px;
-    background-image: url("../IMG/background/lakeForest.jpg");
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 2px solid black;
 }
 
 nav {
     /* Menu placeholder*/
     grid-area: sidebar;
-    background-color: darkturquoise;
     padding: 20px;
-    background-image: url("../IMG/background/lakeForest.jpg");
+    text-align: left;
+    border: 2px solid black;
 }
 
 article {
     /* Main frame*/
     grid-area: main;
-    background-color: coral;
     padding: 20px;
-    background-image: url("../IMG/background/lakeForest.jpg");
+    border: 2px solid black;
 }
 
 .wrapper {

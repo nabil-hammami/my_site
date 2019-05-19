@@ -9,6 +9,7 @@ Website done to work on various project with a main focus on the testing
 ## Approach
 - Dev will be done using a BDD (Behaviour Driven Development) approach.
 - All the work is done in command line, no WYSIWYG tool used.
+- One of the goals is to achieve this website with minimum HTML.
 
 ![alt text](https://github.com/nabil-hammami/my_site/blob/master/IMG/webTechnoPyramide.png)
 

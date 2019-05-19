@@ -9,9 +9,19 @@
 </head>
 
 <body class="wrapper">
-<header>Header</header>
-<nav>Nav</nav>
-<article>Main</article>
+<header>
+    <span style="text-align: center">Header</span>
+    <img id="logBook" src="./IMG/logBook2.png" alt="logbook" height="75px" width="211px" align="right"
+         onclick="eventClick('logBook')">
+</header>
+<nav>
+    Nav
+</nav>
+<article>
+    <iframe id="mainFrame" name="mainFrame" src="" frameborder="0" width="100%" scrolling="no"
+            onload="resizeIframe(this)">Main Frame
+    </iframe>
+</article>
 </body>
 
 </html>
