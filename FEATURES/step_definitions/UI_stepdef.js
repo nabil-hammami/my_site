@@ -1,5 +1,5 @@
 // Declarations for Cucumber
-const {Given, When, Then} = require('cucumber');
+const {Given, When, Then, After} = require('cucumber');
 const assert = require('assert').strict;
 
 // Declarations for Selenium
@@ -21,5 +21,5 @@ Then('the main frame must contain LogBook', function () {
     driver.switchTo().frame(0);
     driver.findElement(By.xpath('/html/body/h1')).getText().then(function (foundElement) {
         assert.strictEqual(foundElement, 'Logbook');
-    })
+    });
 });

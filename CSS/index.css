@@ -19,7 +19,7 @@ article {
     grid-area: main;
     padding: 20px;
     border: 2px solid black;
-    background-color: whitesmoke;
+    background-color: rgba(255,255,255,0.6);
 }
 
 .wrapper {
