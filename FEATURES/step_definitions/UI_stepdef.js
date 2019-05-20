@@ -9,33 +9,17 @@ const {By, until} = require('selenium-webdriver');
 // Driver creation for Firefox
 let driver = new webdriver.Builder().forBrowser('firefox').build();
 
-async function connection() {
-    await driver.get('https://nabil-hammami.github.io/my_site/');
-    await driver.wait(until.elementLocated(By.id('imgLogBook')), 10000);
-}
-
-async function clicLogBook() {
-    await driver.findElement({id: 'imgLogBook'}).click();
-}
-
-function expected(){
-    driver.switchTo().frame(0);
-    let promiseValue = driver.findElement(By.xpath('/html/body/h1')).getText();
-
-    console.log('returnValue = ' + returnValue);
-}
-
 Given('I am connected to the website', function () {
-    let retour = connection();
-    console.log('connection() = ' + retour);
+    return driver.get('https://nabil-hammami.github.io/my_site/');
 });
 
 When('I click on the logbook picture', function () {
-    let retour = clicLogBook();
-    console.log('clicLogBook() = ' + retour);
+    return driver.findElement({id: 'imgLogBook'}).click();
 });
 
 Then('the main frame must contain LogBook', function () {
-    let expectedReturn = expected();
-    assert.strictEqual(expectedReturn,"Logbook");
+    driver.switchTo().frame(0);
+    driver.findElement(By.xpath('/html/body/h1')).getText().then(function (foundElement) {
+        assert.strictEqual(foundElement, 'Logbook');
+    })
 });

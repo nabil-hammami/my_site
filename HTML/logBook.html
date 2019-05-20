@@ -10,11 +10,19 @@
 <h2>To track the progression </h2>
 <h3>May 19th</h3>
 <ul>
-<li>Creation of the logBook button (...In fact, a clickable picture)</li>
-<li>UI Test : Implementation with Cucumber/Selenium</li>
+    <li>Creation of the logBook button (...In fact, a clickable picture)</li>
+    <li>UI Test : Implementation with Cucumber/Selenium</li>
     <span class="GherkinText">Scenario:</span> The logbook picture must load logBook.html in the main frame<br>
     <span class="GherkinText">When</span> I click on the logbook picture<br>
     <span class="GherkinText">Then</span> the main frame must contain LogBook
+</ul>
+<h3>May 20th</h3>
+<ul>
+    <li>Since yesterday, I was stuck in the previous test due to asynchronous issue with Javascript and its promises.</li>
+    <li>Thanks to <a href="http://testerstories.com/2016/03/webdriver-in-javascript-with-promises/" target="_blank">this</a>
+        article, I finally understood the promises concept and achieve the test of the logBook button.</li>
+    <li>Code is available on my github
+        <a href="https://github.com/nabil-hammami/my_site/blob/master/FEATURES/step_definitions/UI_stepdef.js" target="_blank">here</a></li>
 </ul>
 <p></p>
 </body>
