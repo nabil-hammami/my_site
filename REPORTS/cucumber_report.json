@@ -1,0 +1,73 @@
+[
+  {
+    "description": "  All links must work as expected",
+    "keyword": "Feature",
+    "name": "Navigation",
+    "line": 1,
+    "id": "navigation",
+    "tags": [],
+    "uri": "features\\UI.feature",
+    "elements": [
+      {
+        "id": "navigation;the-logbook-picture-must-load-logbook.html-in-the-main-frame",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "The logbook picture must load logBook.html in the main frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am connected to the website",
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the logbook picture",
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the main frame must contain LogBook",
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 609000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

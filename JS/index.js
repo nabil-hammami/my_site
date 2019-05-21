@@ -3,19 +3,30 @@ function resizeIframe(obj) {
 }
 
 function eventClick(obj){
-    if (obj === "imgLogBook"){
-        document.getElementById("mainFrame").src = "./HTML/logBook.html";
+    switch (obj) {
+        case "imgLogBook":
+            document.getElementById("mainFrame").src = "./HTML/logBook.html";
+            break;
+        case "menuLastTestResult":
+            document.getElementById("mainFrame").src = "./REPORTS/cucumber_report.html";
+            break;
+        default:
+            document.getElementById("mainFrame").src = "";
     }
 }
 
 function eventMouseOver(obj) {
-    if (obj === "imgLogBook"){
-        document.getElementById("imgLogBook").src = "./IMG/logBookMouseOver.png";
+    switch (obj) {
+        case "imgLogBook":
+            document.getElementById("imgLogBook").src = "./IMG/logBookMouseOver.png";
+            break;
     }
 }
 
 function eventMouseOut(obj) {
-    if (obj === "imgLogBook"){
-        document.getElementById("imgLogBook").src = "./IMG/logBook.png";
+    switch (obj) {
+        case "imgLogBook":
+            document.getElementById("imgLogBook").src = "./IMG/logBook.png";
+            break;
     }
 }

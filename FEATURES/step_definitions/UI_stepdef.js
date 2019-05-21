@@ -4,13 +4,13 @@ const assert = require('assert').strict;
 
 // Declarations for Selenium
 const webdriver = require('selenium-webdriver');
-const {By, until} = require('selenium-webdriver');
+const {By} = require('selenium-webdriver');
 
 // Driver creation for Firefox
 let driver = new webdriver.Builder().forBrowser('firefox').build();
 
 Given('I am connected to the website', function () {
-    return driver.get('https://nabil-hammami.github.io/my_site/');
+    return driver.get('http://localhost:1337/index.html');
 });
 
 When('I click on the logbook picture', function () {
@@ -19,7 +19,11 @@ When('I click on the logbook picture', function () {
 
 Then('the main frame must contain LogBook', function () {
     driver.switchTo().frame(0);
-    driver.findElement(By.xpath('/html/body/h1')).getText().then(function (foundElement) {
+    return driver.findElement(By.xpath('/html/body/h1')).getText().then(function (foundElement) {
         assert.strictEqual(foundElement, 'Logbook');
     });
+});
+
+After(function () {
+    return driver.quit();
 });

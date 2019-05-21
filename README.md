@@ -17,9 +17,11 @@ Website done to work on various project with a main focus on the testing
 - IntelliJ : as an IDE
 - Selenium : to automate UI tests
 - Cucumber : to manage the tests
+- Cucumber-html-reporter
 - LibreOffice DRAW : for graphics
 - SimpleMind Pro : For Mindmapping
 - MySQL : Database
+- Jenkins
 
 ## Versioning/Roadmap
 - 0.1.x : 

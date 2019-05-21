@@ -40,3 +40,6 @@ span.GherkinText {
     text-decoration-color: brown;
 }
 
+li{
+    font-weight: bold;
+}

@@ -2,9 +2,9 @@
   "name": "my_site",
   "version": "1.0.0",
   "description": "Website done to work on various project with a main focus on the testing",
-  "main": "index.js",
+  "main": "cucumber_html_reporter.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js"
+    "test": "./node_modules/.bin/cucumber-js --format json:REPORTS/cucumber_report.json"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,11 @@
   "homepage": "https://github.com/nabil-hammami/my_site#readme",
   "devDependencies": {
     "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.0",
     "geckodriver": "^1.16.2",
     "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }
