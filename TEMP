@@ -4,3 +4,7 @@
     <h1>Menu</h1>
     <a href="REPORTS/cucumber_report.html" target="_blank">Last test results</a>
 </nav>
+
+/html/body/div[1]/div/div/a
+
+/html/body/img
