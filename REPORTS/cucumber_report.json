@@ -26,7 +26,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2668000000
+              "duration": 2672000000
             }
           },
           {
@@ -63,7 +63,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 499000000
+              "duration": 598000000
             }
           }
         ]
@@ -86,7 +86,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2574000000
+              "duration": 2542000000
             }
           },
           {
@@ -99,7 +99,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 223000000
+              "duration": 256000000
             }
           },
           {
@@ -112,7 +112,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 54000000
             }
           },
           {
@@ -123,7 +123,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 484000000
+              "duration": 488000000
             }
           }
         ]
@@ -146,7 +146,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2580000000
+              "duration": 2663000000
             }
           },
           {
@@ -159,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 216000000
+              "duration": 245000000
             }
           },
           {
@@ -172,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 12000000
             }
           },
           {
@@ -183,7 +183,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 481000000
+              "duration": 489000000
             }
           }
         ]
