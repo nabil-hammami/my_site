@@ -10,16 +10,40 @@
 </head>
 
 <body class="wrapper">
+
+<!-----------------------------------------------------------
+-------------------- HEADER SECTION -------------------------
+------------------------------------------------------------->
 <header>
+    <!--TODO add Work In Progress image -->
     <span style="text-align: center">Header</span>
     <img id='imgLogBook' src='IMG/logBook.png' alt="logbook" height='75px' width='211px' align='right'
          onclick="eventClick('imgLogBook')" onmouseover="eventMouseOver('imgLogBook')"
          onmouseout="eventMouseOut('imgLogBook')" style="cursor: pointer">
 </header>
+
+<!-----------------------------------------------------------
+--------------------- MENU SECTION --------------------------
+------------------------------------------------------------->
 <nav>
-    <h3><a href="./REPORTS/cucumber_report.html" target="mainFrame">Latest test results</a></h3>
-    <h3><a href="./ROADMAP/roadmap.html" target="mainFrame">Roadmap</a></h3>
+    <h2>Menu</h2>
+    <ul>
+        <li><h3><a id="menu_latestTestResult" href="./REPORTS/cucumber_report.html" target="mainFrame">Latest test results</a></h3></li>
+        <li><h3><a id="menu_roadmap" href="./ROADMAP/roadmap.html" target="mainFrame">Roadmap</a></h3></li>
+    </ul>
+    <div id="social">
+        <a href="https://www.linkedin.com/in/nabil-hammami-3a5012100/" target="_blank">
+            <img src="./IMG/LinkedIn_logo.jpg" alt="LinkedIn" width="147" height="42">
+        </a><br>
+        <a href="https://github.com/nabil-hammami/my_site" target="_blank">
+            <img src="./IMG/GitHub_logo.jpg" alt="Github" width="160" height="42">
+        </a>
+    </div>
 </nav>
+
+<!-----------------------------------------------------------
+------------------ MAIN FRAME SECTION -----------------------
+------------------------------------------------------------->
 <article>
     <iframe id="mainFrame" name="mainFrame" src="" frameborder="0" width="100%" scrolling="yes"
             onload="resizeIframe(this)">Main Frame

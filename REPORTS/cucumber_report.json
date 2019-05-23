@@ -11,7 +11,7 @@
       {
         "id": "navigation;the-logbook-picture-must-load-logbook.html-in-the-main-frame",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 5,
         "name": "The logbook picture must load logBook.html in the main frame",
         "tags": [],
         "type": "scenario",
@@ -19,51 +19,171 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 6,
             "name": "I am connected to the website",
             "match": {
               "location": "features\\step_definitions\\UI_stepdef.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2621000000
+              "duration": 2662000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 7,
             "name": "I click on the logbook picture",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:16"
+              "location": "features\\step_definitions\\UI_stepdef.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 214000000
+              "duration": 231000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 8,
             "name": "the main frame must contain LogBook",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:20"
+              "location": "features\\step_definitions\\UI_stepdef.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 15000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:27"
+              "location": "features\\step_definitions\\UI_stepdef.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 537000000
+              "duration": 479000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation;the-latest-test-result-link-must-load-the-cucumberjs-report-in-the-main-frame",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "The Latest test result link must load the Cucumberjs Report in the main frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I am connected to the website",
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on the Latest test results link",
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the main frame must contain Cucumberjs Report",
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 492000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigation;the-roadmap-link-must-load-the-roadmap-picture-in-the-main-frame",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "The Roadmap link must load the roadmap picture in the main frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am connected to the website",
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on the Roadmap link",
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the main frame must contain roadmap.png",
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\UI_stepdef.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 488000000
             }
           }
         ]
