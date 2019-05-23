@@ -9,7 +9,7 @@
     <script src="JS/menu.js"></script>
 </head>
 
-<body class="wrapper">
+<body class="wrapper" onload="createMenu();">
 
 <!-----------------------------------------------------------
 -------------------- HEADER SECTION -------------------------
@@ -27,10 +27,7 @@
 ------------------------------------------------------------->
 <nav>
     <h2>Menu</h2>
-    <ul>
-        <li><h3><a id="menu_latestTestResult" href="./REPORTS/cucumber_report.html" target="mainFrame">Latest test results</a></h3></li>
-        <li><h3><a id="menu_roadmap" href="./ROADMAP/roadmap.html" target="mainFrame">Roadmap</a></h3></li>
-    </ul>
+    <ul id="nav-ul-menu"></ul>
     <div id="social">
         <a href="https://www.linkedin.com/in/nabil-hammami-3a5012100/" target="_blank">
             <img src="./IMG/LinkedIn_logo.jpg" alt="LinkedIn" width="147" height="42">
