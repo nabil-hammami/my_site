@@ -4,7 +4,7 @@ function createMenu() {
 
     // Array initialisation
     menuElements[0] = ['menu_latestTestResult', './REPORTS/cucumber_report.html', 'Latest test results'];
-    menuElements[1] = ['menu_roadmap', './ROADMAP/Roadmap.html', 'Roadmap'];
+    menuElements[1] = ['menu_roadmap', './ROADMAP/roadmap.html', 'Roadmap'];
 
     let i = 0;
     do {
