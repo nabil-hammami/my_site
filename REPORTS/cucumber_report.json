@@ -26,7 +26,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2158000000
+              "duration": 2668000000
             }
           },
           {
@@ -52,7 +52,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 14000000
             }
           },
           {
@@ -63,7 +63,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 500000000
+              "duration": 499000000
             }
           }
         ]
@@ -86,7 +86,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2555000000
+              "duration": 2574000000
             }
           },
           {
@@ -99,7 +99,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 219000000
+              "duration": 223000000
             }
           },
           {
@@ -112,7 +112,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 35000000
             }
           },
           {
@@ -123,7 +123,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 492000000
+              "duration": 484000000
             }
           }
         ]
@@ -146,7 +146,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2571000000
+              "duration": 2580000000
             }
           },
           {
@@ -172,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 13000000
             }
           },
           {
@@ -183,7 +183,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 488000000
+              "duration": 481000000
             }
           }
         ]
