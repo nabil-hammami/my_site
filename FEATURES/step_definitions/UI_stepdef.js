@@ -11,7 +11,9 @@ let driver;
 
 Given('I am connected to the website', function () {
     driver = new webdriver.Builder().forBrowser('firefox').build();
-    return driver.get('http://localhost:1337/index.html');
+   // return driver.get('http://localhost:1337/index.html');
+    return driver.get('http://localhost:63342/My_Website/my_site/index.html');
+
 });
 
 When('I click on the logbook picture', function () {
