@@ -55,5 +55,5 @@ Then('the main frame must contain roadmap.png', function () {
 });
 
 After(function () {
-    return driver.close();
+    //return driver.close();
 });
