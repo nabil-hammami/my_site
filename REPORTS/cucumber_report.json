@@ -22,11 +22,11 @@
             "line": 6,
             "name": "I am connected to the website",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:12"
+              "location": "features\\step_definitions\\UI_stepdef.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 2658000000
+              "duration": 3262000000
             }
           },
           {
@@ -35,11 +35,11 @@
             "line": 7,
             "name": "I click on the logbook picture",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:19"
+              "location": "features\\step_definitions\\UI_stepdef.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 223000000
+              "duration": 230000000
             }
           },
           {
@@ -48,22 +48,22 @@
             "line": 8,
             "name": "the main frame must contain LogBook",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:31"
+              "location": "features\\step_definitions\\UI_stepdef.js:35"
             },
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 17000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:53"
+              "location": "features\\step_definitions\\UI_stepdef.js:57"
             },
             "result": {
               "status": "passed",
-              "duration": 603000000
+              "duration": 613000000
             }
           }
         ]
@@ -82,11 +82,11 @@
             "line": 11,
             "name": "I am connected to the website",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:12"
+              "location": "features\\step_definitions\\UI_stepdef.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 2549000000
+              "duration": 2077000000
             }
           },
           {
@@ -95,11 +95,11 @@
             "line": 12,
             "name": "I click on the Latest test results link",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:23"
+              "location": "features\\step_definitions\\UI_stepdef.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 227000000
+              "duration": 231000000
             }
           },
           {
@@ -108,22 +108,22 @@
             "line": 13,
             "name": "the main frame must contain Cucumberjs Report",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:38"
+              "location": "features\\step_definitions\\UI_stepdef.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 38000000
+              "duration": 50000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:53"
+              "location": "features\\step_definitions\\UI_stepdef.js:57"
             },
             "result": {
               "status": "passed",
-              "duration": 519000000
+              "duration": 616000000
             }
           }
         ]
@@ -142,11 +142,11 @@
             "line": 16,
             "name": "I am connected to the website",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:12"
+              "location": "features\\step_definitions\\UI_stepdef.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 2599000000
+              "duration": 2567000000
             }
           },
           {
@@ -155,11 +155,11 @@
             "line": 17,
             "name": "I click on the Roadmap link",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:27"
+              "location": "features\\step_definitions\\UI_stepdef.js:30"
             },
             "result": {
               "status": "passed",
-              "duration": 227000000
+              "duration": 237000000
             }
           },
           {
@@ -168,22 +168,22 @@
             "line": 18,
             "name": "the main frame must contain roadmap.png",
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:45"
+              "location": "features\\step_definitions\\UI_stepdef.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 13000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features\\step_definitions\\UI_stepdef.js:53"
+              "location": "features\\step_definitions\\UI_stepdef.js:57"
             },
             "result": {
               "status": "passed",
-              "duration": 499000000
+              "duration": 827000000
             }
           }
         ]
