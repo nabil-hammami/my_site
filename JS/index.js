@@ -1,5 +1,6 @@
 function resizeIframe(obj) {
-    obj.style.height = window.innerHeight - 160 + 'px';
+    obj.style.height = window.innerHeight - 180 + 'px';
+    console.log("window.innerHeight="+window.innerHeight+" and obj.style.height="+obj.style.height);
 }
 
 function eventClick(obj){

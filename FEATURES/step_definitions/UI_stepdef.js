@@ -16,8 +16,8 @@ Given('I am connected to the website', function () {
 
 });
 
-When('I click on the logbook picture', function () {
-    return driver.findElement({id: 'imgLogBook'}).click();
+When('I click on the logbook link', function () {
+    return driver.findElement({id: 'menu_logBook'}).click();
 });
 
 When('I click on the Latest test results link', function () {

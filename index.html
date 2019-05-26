@@ -5,38 +5,24 @@
     <link rel="stylesheet" type="text/css" href="CSS/index.css"/>
     <meta charset="UTF-8">
     <title>Testing 4 Fun</title>
-    <script src="JS/index.js"></script>
-    <script src="JS/menu.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="./JS/menu.js"></script>
 </head>
 
-<body class="wrapper" onload="createMenu();">
+<body class="wrapper" onload="createMenu();init()">
 
 <!-----------------------------------------------------------
 -------------------- HEADER SECTION -------------------------
 ------------------------------------------------------------->
 <header>
     <!--TODO add Work In Progress image -->
-    <span style="text-align: center">Header</span>
-    <img id='imgLogBook' src='IMG/logBook.png' alt="logbook" height='75px' width='211px' align='right'
-         onclick="eventClick('imgLogBook')" onmouseover="eventMouseOver('imgLogBook')"
-         onmouseout="eventMouseOut('imgLogBook')" style="cursor: pointer">
+    <div id="website-title">Test 4 Fun</div>
 </header>
 
 <!-----------------------------------------------------------
 --------------------- MENU SECTION --------------------------
 ------------------------------------------------------------->
-<nav>
-    <h2>Menu</h2>
-    <ul id="nav-ul-menu"></ul>
-    <div id="social">
-        <a href="https://www.linkedin.com/in/nabil-hammami-3a5012100/" target="_blank">
-            <img src="./IMG/LinkedIn_logo.jpg" alt="LinkedIn" width="147" height="42">
-        </a><br>
-        <a href="https://github.com/nabil-hammami/my_site" target="_blank">
-            <img src="./IMG/GitHub_logo.jpg" alt="Github" width="160" height="42">
-        </a>
-    </div>
-</nav>
+<nav id="nav-menu"></nav>
 
 <!-----------------------------------------------------------
 ------------------ MAIN FRAME SECTION -----------------------
@@ -46,6 +32,22 @@
             onload="resizeIframe(this)">Main Frame
     </iframe>
 </article>
+
+<!-----------------------------------------------------------
+-------------------- FOOTER SECTION -------------------------
+------------------------------------------------------------->
+<footer>
+    <div id="social">
+        <a href="https://www.linkedin.com/in/nabil-hammami-3a5012100/" target="_blank">
+            <img src="./IMG/LinkedIn_logo.jpg" alt="LinkedIn" width="147" height="42">
+        </a>
+        <span style="white-space: pre">        </span>
+        <a href="https://github.com/nabil-hammami/my_site" target="_blank">
+            <img src="./IMG/GitHub_logo.jpg" alt="Github" width="160" height="42">
+        </a>
+    </div>
+</footer>
+
 </body>
 
 </html>

@@ -1,25 +1,40 @@
+body {
+
+    font-family: "Times New Roman", Times, serif;
+}
+
 header {
     /* */
     grid-area: header;
-    padding-right: 20px;
-    padding-left: 20px;
-    border: 2px solid black;
+    border: 0px solid black;
 }
 
 nav {
     /* Menu placeholder*/
-    grid-area: sidebar;
-    padding: 20px;
-    text-align: left;
-    border: 2px solid black;
+    grid-area: menu;
+    text-align: center;
+    border: 0px solid black;
+}
+
+footer {
+    /* Social links*/
+    grid-area: footer;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    border: 0px solid black;
 }
 
 article {
     /* Main frame*/
     grid-area: main;
-    padding: 20px;
-    border: 2px solid black;
-    background-color: rgba(255,255,255,0.6);
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+article h1 {
+    text-align: center;
 }
 
 .wrapper {
@@ -27,10 +42,21 @@ article {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 9% 20% 60% 10%;
-    grid-template-areas: ". header header ." ". sidebar main .";
+    grid-template-areas: ". header header ." ". menu menu ." ". main main ." ". footer footer .";
     background-color: black;
     font-weight: bold;
     background-image: url("../IMG/background/lakeForest.jpg");
+}
+
+#website-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.menu {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 span.GherkinText {
@@ -40,6 +66,6 @@ span.GherkinText {
     text-decoration-color: brown;
 }
 
-li{
+li {
     font-weight: bold;
 }

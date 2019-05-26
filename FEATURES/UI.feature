@@ -2,9 +2,9 @@ Feature: Navigation
   All links must work as expected
 # Comments
 
-  Scenario: The logbook picture must load logBook.html in the main frame
+  Scenario: The logbook link must load logBook.html in the main frame
     Given I am connected to the website
-    When I click on the logbook picture
+    When I click on the logbook link
     Then the main frame must contain LogBook
 
   Scenario: The Latest test result link must load the Cucumberjs Report in the main frame
