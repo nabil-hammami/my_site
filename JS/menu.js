@@ -14,15 +14,13 @@ function createMenu() {
         let content = document.createTextNode(menuElements[i][2]);
         let elementA = document.createElement("a");
         let elementH3 = document.createElement("h3");
-    //    let elementLi = document.createElement("li");
         let pageElement = document.getElementById("nav-menu");
         elementA.appendChild(content);
         elementA.setAttribute("id", menuElements[i][0]);
+        elementA.setAttribute("class","mainMenu");
         elementA.setAttribute("href", menuElements[i][1]);
         elementA.setAttribute("target", "mainFrame");
-        elementA.setAttribute("class", "menu");
         elementH3.appendChild(elementA);
-    //    elementLi.appendChild(elementH3);
         pageElement.appendChild(elementA);
         i++;
     }

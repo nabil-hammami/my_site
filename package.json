@@ -4,7 +4,7 @@
   "description": "Website done to work on various project with a main focus on the testing",
   "main": "cucumber_html_reporter.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js --format json:REPORTS/cucumber_report.json"
+    "test": "./node_modules/.bin/cucumber-js --format json:REPORTS/cucumber_report.json --tags @Menu"
   },
   "repository": {
     "type": "git",

@@ -37,6 +37,15 @@ article h1 {
     text-align: center;
 }
 
+section h4{
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+li {
+    font-weight: bold;
+}
+
 .wrapper {
     /* Grid Definition */
     display: grid;
@@ -48,24 +57,39 @@ article h1 {
     background-image: url("../IMG/background/lakeForest.jpg");
 }
 
+.mainMenu {
+    color: teal;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration-line: none;
+}
+
+.mainMenu:hover{
+    color: darkred;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration-line: underline;
+}
+
 #website-title {
     font-size: 30px;
     text-align: center;
 }
 
-.menu {
-    font-size: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+.Gherkin {
+    font-family: "Source Code Pro Light";
+    color: white;
+    background-color: black;
+    padding: 5px;
+    white-space: normal;
 }
 
-span.GherkinText {
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: underline;
-    text-decoration-color: brown;
+.Gherkin span{
+    white-space: pre;
 }
 
-li {
-    font-weight: bold;
+.Gherkin #keyword{
+    color: chocolate;
 }
