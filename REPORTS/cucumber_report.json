@@ -1,86 +1,22 @@
 [
   {
-    "description": "  All links must lead to their corresponding page",
+    "description": "  Only registered customer should be able to log in\n  Valid credentials are login=Peter and password=Parker",
     "keyword": "Feature",
-    "name": "Navigation via the main Menu",
+    "name": "Project Online Store : Authentication on the login page",
     "line": 1,
-    "id": "navigation-via-the-main-menu",
+    "id": "project-online-store-:-authentication-on-the-login-page",
     "tags": [],
-    "uri": "features\\Main_navigation.feature",
+    "uri": "features\\eCommerce_login.feature",
     "elements": [
       {
-        "id": "navigation-via-the-main-menu;main-menu-links-must-load-corresponding-pages",
-        "keyword": "Scenario",
-        "line": 12,
-        "name": "Main menu links must load corresponding pages",
-        "tags": [
-          {
-            "name": "@Menu",
-            "line": 5
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "I am connected to the website",
-            "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2623000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 8,
-            "name": "I click on the Home link",
-            "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 231000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the main frame must contain Welcome",
-            "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:41"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 19000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:61"
-            },
-            "result": {
-              "status": "passed"
-            }
-          }
-        ]
-      },
-      {
-        "id": "navigation-via-the-main-menu;main-menu-links-must-load-corresponding-pages",
+        "id": "project-online-store-:-authentication-on-the-login-page;as-a-registered-user,-i-shouldn't-be-able-to-log-in-if-the-password-is-missing",
         "keyword": "Scenario",
         "line": 14,
-        "name": "Main menu links must load corresponding pages",
+        "name": "As a registered user, I shouldn't be able to log in if the password is missing",
         "tags": [
           {
-            "name": "@Menu",
-            "line": 5
+            "name": "@eCommerce",
+            "line": 13
           }
         ],
         "type": "scenario",
@@ -88,36 +24,36 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "I am connected to the website",
+            "line": 15,
+            "name": "I am connected on the log in page",
             "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:15"
+              "location": "features\\step_definitions\\eCommerce_login_stepdefs.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 74000000
+              "duration": 23000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
-            "name": "I click on the Roadmap link",
+            "line": 16,
+            "name": "I fill my login",
             "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:37"
+              "location": "features\\step_definitions\\eCommerce_login_stepdefs.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 222000000
+              "duration": 2784000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the main frame must contain roadmap.png",
+            "keyword": "And ",
+            "line": 17,
+            "name": "the password is empty",
             "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:57"
+              "location": "features\\step_definitions\\eCommerce_login_stepdefs.js:46"
             },
             "result": {
               "status": "passed",
@@ -125,6 +61,33 @@
             }
           },
           {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "features\\step_definitions\\eCommerce_login_stepdefs.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "an error message saying The password is mandatory must be displayed",
+            "match": {
+              "location": "features\\step_definitions\\eCommerce_login_stepdefs.js:59"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 18000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: Input A expected to strictly equal input B:\n+ expected - actual\n\n- 'The login is mandatory'\n+ 'The password is mandatory'\n    + expected - actual\n\n    -The login is mandatory\n    +The password is mandatory\n\n    at C:\\Users\\NABIL\\Documents\\SYNODRIVE\\Programmation\\PROJECTS\\my_site\\features\\step_definitions\\eCommerce_login_stepdefs.js:61:16\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            }
+          },
+          {
             "keyword": "After",
             "hidden": true,
             "match": {
@@ -133,66 +96,12 @@
             "result": {
               "status": "passed"
             }
-          }
-        ]
-      },
-      {
-        "id": "navigation-via-the-main-menu;main-menu-links-must-load-corresponding-pages",
-        "keyword": "Scenario",
-        "line": 16,
-        "name": "Main menu links must load corresponding pages",
-        "tags": [
-          {
-            "name": "@Menu",
-            "line": 5
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "I am connected to the website",
-            "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 61000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 8,
-            "name": "I click on the Logbook link",
-            "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 215000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "the main frame must contain Logbook",
-            "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:49"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 11000000
-            }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "features\\step_definitions\\Main_navigation_stepdef.js:61"
+              "location": "features\\step_definitions\\eCommerce_login_stepdefs.js:75"
             },
             "result": {
               "status": "passed"

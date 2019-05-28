@@ -10,10 +10,10 @@ const webdriver = require('selenium-webdriver');
 const mine = require('../modules/myModules');
 
 // Driver creation for Firefox
-let driver = new webdriver.Builder().forBrowser('firefox').build();
+let driver;
 
 Given('I am connected to the website', function () {
-//    driver = new webdriver.Builder().forBrowser('firefox').build();
+    driver = new webdriver.Builder().forBrowser('firefox').build();
     return driver.get('http://localhost:63342/My_Website/my_site/index.html');
 
 });

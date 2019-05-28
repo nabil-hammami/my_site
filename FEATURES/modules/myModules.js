@@ -7,7 +7,7 @@ exports.findTextElementByXpath = async function findTextElementByXpath(driver, p
     return response.getText().then(function (foundElement) {
         assert.strictEqual(foundElement, elementToFind);
     });
-}
+};
 
 exports.findImgElementByXpath = async function findImgElementByXpath(driver, path, image) {
     await driver.switchTo().frame(0);
@@ -15,7 +15,7 @@ exports.findImgElementByXpath = async function findImgElementByXpath(driver, pat
         let isTrue = foundElement.endsWith(image);
         assert.strictEqual(isTrue, true);
     });
-}
+};
 
 exports.findTextElementById = async function findTextElementById(driver, elementId, elementToFind) {
     await driver.switchTo().frame(0);
@@ -23,4 +23,4 @@ exports.findTextElementById = async function findTextElementById(driver, element
     return response.getText().then(function (foundElement) {
         assert.strictEqual(foundElement, elementToFind);
     });
-}
+};

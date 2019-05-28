@@ -10,7 +10,7 @@ Feature: Navigation via the main Menu
     Examples:
       | link                | expectedText      |
       | Home                | Welcome           |
-#      | Projects            | Projects          |
+      | Projects            | Projects          |
       | Roadmap             | roadmap.png       |
-#      | Latest test results | Cucumberjs Report |
+      | Latest test results | Cucumberjs Report |
       | Logbook             | Logbook           |

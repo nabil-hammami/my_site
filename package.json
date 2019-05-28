@@ -4,7 +4,7 @@
   "description": "Website done to work on various project with a main focus on the testing",
   "main": "cucumber_html_reporter.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js --format json:REPORTS/cucumber_report.json --tags @Menu"
+    "test": "./node_modules/.bin/cucumber-js --format json:REPORTS/cucumber_report.json --tags @eCommerce"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "selenium-webdriver": "^4.0.0-alpha.1"
   },
   "dependencies": {
+    "chai": "^4.2.0",
     "http-server": "^0.11.1"
   }
 }
